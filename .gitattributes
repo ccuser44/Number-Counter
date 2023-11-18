@@ -1,0 +1,5 @@
+# Change line endings to LF
+*.ahk text=auto
+*.ahk eol=lf
+*.md text=auto
+*.md eol=lf
