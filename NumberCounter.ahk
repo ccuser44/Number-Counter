@@ -46,7 +46,7 @@ PrettyNumber(n) { ; inserts thousands separators into a number string
 ;    You should have received a copy of the GNU General Public License
 ;    along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-msgbox, Ctr + Alt Z to Open options, Ctr + Alt X to pause. Copyright (C) 2023  ccuser44
+msgbox, Ctr + Alt + Z to Open options, Ctr + Alt + X to pause. Copyright (C) 2023  ccuser44
 
 !^z::
 Gui, Add, Text, section, Maximum:
@@ -60,7 +60,7 @@ Gui, Add, Text, , Rand delay range (in ms):
 Gui, Add, Text, , Prefix:
 Gui, Add, Text, , Postfix:
 Gui, Add, Text, , Completemessage:
-Gui, Add, Text, , Is Uppercase:
+Gui, Add, Text, , Is uppercase:
 
 Gui, Add, Edit, vMAXIMUM ys
 Gui, Add, Edit, vMINIMUM
