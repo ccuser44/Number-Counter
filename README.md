@@ -28,7 +28,7 @@ Instead of making the players repetetively type stuff on their keyboards they co
 	- Silent - *(Optional)* - yes/no toggle if the script will not chat any messages.
 	- NoJump - *(Optional)* - yes/no toggle if the script will not jump.
 	- Delay - *(Optional)* - Delay in miliseconds between counting of each number.
-	- Rand delay range - *(Optional)* - Number range in miliseconds waited before each 
+	- Rand delay range - *(Optional)* - Number range in miliseconds waited before each action. Example `10;35`
 	- Prefix - *(Optional)* - Message that is appended before each number.
 	- Postfix - *(Optional)* - Message that is appended after each number.
 	- Completemessage - *(Optional)* - Message that is told after all numbers have been counted.
