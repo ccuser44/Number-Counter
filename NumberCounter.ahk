@@ -129,7 +129,6 @@ delayMax := (regexMatches[2] ? regexMatches[2] : 700)
 
 loop, %loopcount%
 {
-	ChatAndJump(CHAT_KEY, "HAI", IS_SILENT, NO_JUMP)
 	ChatAndJump(CHAT_KEY, (PREFIX . (NUM_IS_FORMATTED ? Format(UPPER_CASE ? "{:U}" : "{s}", FormatNumber(count)) : count) . POSTFIX), IS_SILENT, NO_JUMP)
 
 	Random rand, delayMin, delayMax
