@@ -60,7 +60,7 @@ Gui, Add, Text, , Rand delay range (in ms):
 Gui, Add, Text, , Prefix:
 Gui, Add, Text, , Postfix:
 Gui, Add, Text, , Completemessage:
-Gui, Add, Text, , Is Uppercase:
+Gui, Add, Text, , Is uppercase:
 
 Gui, Add, Edit, vMAXIMUM ys
 Gui, Add, Edit, vMINIMUM
