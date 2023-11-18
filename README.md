@@ -11,6 +11,8 @@ No person should ever do such tasks, not only is it very frustrating but also wi
 Not only does this script attempt to make life easier but also make the gamedevs re-think bad game design.
 Instead of making the players repetetively type stuff on their keyboards they could actually make people do pushups IRL with VR headseats or phones. That would actually be cool, fun and useful.
 
+![A showcase of the script in game](Showcase.gif)
+
 ## Downloading
 
 1. Download the [AutoHotkey program](https://www.autohotkey.com/) on your computer.
