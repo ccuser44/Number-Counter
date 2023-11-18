@@ -46,7 +46,7 @@ PrettyNumber(n) { ; inserts thousands separators into a number string
 ;    You should have received a copy of the GNU General Public License
 ;    along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-msgbox, Ctr + Alt + Z to Open options, Ctr + Alt + X to pause. Copyright (C) 2023  ccuser44
+msgbox, Ctr + Alt Z to Open options, Ctr + Alt X to pause. Copyright (C) 2023  ccuser44
 
 !^z::
 Gui, Add, Text, section, Maximum:
@@ -60,7 +60,7 @@ Gui, Add, Text, , Rand delay range (in ms):
 Gui, Add, Text, , Prefix:
 Gui, Add, Text, , Postfix:
 Gui, Add, Text, , Completemessage:
-Gui, Add, Text, , Is uppercase:
+Gui, Add, Text, , Is Uppercase:
 
 Gui, Add, Edit, vMAXIMUM ys
 Gui, Add, Edit, vMINIMUM
@@ -106,11 +106,6 @@ ChatMessage(chatKeyLocal, message)
 }
 
 ChatAndJump(chatKeyLocal, message, isSilent, noJump)
-{
-	if (vUPPER_CASE == true) {
-		StringUpper, message, message
-	}
-
 	if (isSilent != true) {
 		ChatMessage(chatKeyLocal, message)
 	}
@@ -134,7 +129,7 @@ delayMax := (regexMatches[2] ? regexMatches[2] : 700)
 
 loop, %loopcount%
 {
-	ChatAndJump(CHAT_KEY, (PREFIX . (NUM_IS_FORMATTED ? FormatNumber(count) : count) . POSTFIX), IS_SILENT, NO_JUMP)
+	ChatAndJump(CHAT_KEY, (PREFIX . (NUM_IS_FORMATTED ? Format(UPPER_CASE ? "{:U}" : "{s}", FormatNumber(count)) : count) . POSTFIX), IS_SILENT, NO_JUMP)
 
 	Random rand, delayMin, delayMax
 	sleep ((DELAY != "" ? DELAY : 2500) + rand)
