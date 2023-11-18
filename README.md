@@ -42,3 +42,7 @@ If you want to stop the number counter before it's finished press `Ctrl + Alt + 
 ## License
 
 This AHK script is licensed under the [GPL V3 license](LICENSE).
+
+---
+
+I had made this script at least half a year ago but almost forgot about it. Now I'm releasing it.
