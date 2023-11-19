@@ -1,15 +1,15 @@
 # Number Counter
 
-Are you tired and of those (Roblox) military games that make you repetetively type numbers by counting up or down by attempting to badly "simulate" pushups? Would like a magic solution to it?
+Are you tired and of those (Roblox) military games that make you repetitively type numbers by counting up or down by attempting to badly "simulate" pushups? Would like a magic solution to it?
 Well you have come to the right place my friend. Introducing Number Counter.
 
-Number Counter is a simple AHK script that allows you to do the repetetive task of spelling out numbers and jumping completely automatically.
+Number Counter is a simple AHK script that allows you to do the repetitive task of spelling out numbers and jumping completely automatically.
 You probably shouldn't be playing such games in the first place but if you ever do then this script will remove all the useless cruft.
-The script is also useful for any task that requires any repetetive typing of numbers including Excel spreadsheets etc.
+The script is also useful for any task that requires any repetitive typing of numbers including Excel spreadsheets etc.
 
 No person should ever do such tasks, not only is it very frustrating but also will probably give you carpal tunnel.
 Not only does this script attempt to make life easier but also make the gamedevs re-think bad game design.
-Instead of making the players repetetively type stuff on their keyboards they could actually make people do pushups IRL with VR headseats or phones. That would actually be cool, fun and useful.
+Instead of making the players repetitively type stuff on their keyboards they could actually make people do pushups IRL with VR headseats or phones. That would actually be cool, fun and useful.
 
 ![A showcase of the script in game](Showcase.gif)
 
@@ -29,7 +29,7 @@ Instead of making the players repetetively type stuff on their keyboards they co
 	- FormattedNumber - *(Optional)* - yes/no toggle if the number is pretty formatted instead of the raw numeral. On=`one`, Off=`1`.
 	- Silent - *(Optional)* - yes/no toggle if the script will not chat any messages.
 	- NoJump - *(Optional)* - yes/no toggle if the script will not jump.
-	- Delay - *(Optional)* - Delay in miliseconds between counting of each number.
+	- Delay - *(Optional)* - Delay in milliseconds between counting of each number.
 	- Rand delay range - *(Optional)* - Number range in miliseconds waited before each action. Example `10;35`
 	- Prefix - *(Optional)* - Message that is appended before each number.
 	- Postfix - *(Optional)* - Message that is appended after each number.
